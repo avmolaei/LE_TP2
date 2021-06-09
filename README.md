@@ -31,8 +31,18 @@ PROBLEME 1: Etude de géométrie :<br/>
 
 PROBLEME 2: Classe abstraite & interface:<br/>
 
-      ->truc 1 
+      ->abstrait
+            Forme.java
+            Point.java
+            Cercle.java
+            Cylindre.java
+            Test.java
 
-      ->truc 2
+      ->interface
+            Forme.java
+            Point.java
+            Cercle.java
+            Cylindre.java
+            Test.java   
 
       ->truc 3
