@@ -28,6 +28,7 @@ PROBLEME 1: Etude de géométrie :<br/>
             TestPoint.java
             TestCercle.java
             TestCylindre.java
+            JAVADOC
 
 PROBLEME 2: Classe abstraite & interface:<br/>
 
@@ -37,12 +38,30 @@ PROBLEME 2: Classe abstraite & interface:<br/>
             Cercle.java
             Cylindre.java
             Test.java
+            JAVADOC
 
       ->interface
             Forme.java
             Point.java
             Cercle.java
             Cylindre.java
-            Test.java   
+            Test.java  
+            JAVADOC
 
-      ->truc 3
+PROBLEME 3: Tore et Sphère:<br/>
+
+      ->tore et sphere
+            Point.java
+            Tore.java
+            Sphere.java
+            Test.java  
+            JAVADOC
+        
+PROBLEME 4: Convertisseur euro/dollar:<br/>
+
+      ->Convertiseur
+            Convertisseur.java
+            MenuConvertisseur.java
+            DialogConfiguration.java
+            JAVADOC
+        
