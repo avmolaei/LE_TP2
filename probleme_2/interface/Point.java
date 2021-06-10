@@ -1,4 +1,20 @@
-// Définition de la classe Point.
+/**
+ * Point{}; classe  décrivant un point.
+ *<br>
+ *
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Fououble aire() {
+        return 2 * super.aire() + 2 * Math.PI * rayon * hauteur;
+    }
+    // Calcundation; either version 3 of the License, or
+ * (at your option) any later version.
+ * <br>
+ *
+ * @author I.ALAME, J.BENKEMOUN, A.MOLAEI
+ * @version 1.0
+ */
 public class Point implements Forme {
     /**
      * ATTRIBUTS
