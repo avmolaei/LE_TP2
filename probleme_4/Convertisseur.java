@@ -43,6 +43,16 @@ public class Convertisseur extends JFrame{
     
     }
 
+
+    /**
+     * getDialogValue(); récupère la valuer rentrée dans la config dialog
+     * @return la valeur entrée
+     */
+    public double getDialogValue(MenuCOnvertisseru mc){
+        if(mc.dc.valid) return Double.parseDouble(mc.dc.in.getText());
+        return dtx;
+    }
+
     /**
      * draw(); coeur de la génération de la fenetre de l'application
      */
@@ -62,13 +72,13 @@ public class Convertisseur extends JFrame{
         JButton b = new JButton("Convertir");
         JLabel dollar = new JLabel("Dollar");
         JTextField output = new JTextField(6);
-        output.setEditable(false);
+        ogetDialoggetDialogutput.setEditable(false);
         JLabel tx = new JLabel("taux de conversion: 1euro = " + dtx + "$");
         //BOUTON
         b.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 try{
-                    if(mc.dc != null) dtx = mc.getDialogValue();
+                    if(mc.dc != null) dtx = getDialogValue(mc);
                     tx.setText("taux de conversion: 1euro = " + dtx + "$");
                     String txt = String.valueOf(primitiveConvert(Double.parseDouble(input.getText())));
                     output.setText(txt);

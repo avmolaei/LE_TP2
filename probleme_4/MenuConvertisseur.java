@@ -47,14 +47,7 @@ public class MenuConvertisseur extends JMenuBar implements ActionListener{
         aide.add(about);
     }
 
-    /**
-     * getDialogValue(); récupère la valuer rentrée dans la config dialog
-     * @return la valeur entrée
-     */
-    public double getDialogValue(){
-        if(dc.valid) return Double.parseDouble(dc.in.getText());
-        return getDialogValue();
-    }
+
 
     /**
      * actionPerformed(); fonction qui gère les events dans le menu
